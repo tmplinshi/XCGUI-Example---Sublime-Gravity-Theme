@@ -93,13 +93,13 @@ Listbox_OnSelect(hEle, hEventEle, idx, pbHandled) {
 Listbox_OnTempCreateEnd(hEle, hEventEle, pItem, pbHandled) {
 	Critical
 
-	nState := NumGet(pItem+16, "int")
 	idx := NumGet(pItem+0, "int")
 
 	if hEdit := xc.XListBox_GetTemplateObject(hEle, idx, 100)
 	{
 		_XRichEdit_SetTextFont(hEdit, g_hFontx)
 
+		nState := NumGet(pItem+16, "int")
 		if (nState = 2) ; list_item_state_select
 			_XRichEdit_SetTextColor(hEdit, 0xffffff)
 
