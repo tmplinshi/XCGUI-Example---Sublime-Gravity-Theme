@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-窗口布局文件-->
+<windowUI bkInfoM="{99:1.9.9;3:2(15)4(@bg.png);98:1(0);}" center="true" content="Gravity Theme" dragWindow="true" enableLayout="true" height="390" layout.horizon="false" layout.padding="19,39,21,20" layout.space="12" layoutBottom="0" layoutLeft="0" layoutRight="0" layoutTop="0" left="20" showT="true" top="20" transparentAlpha="255" transparentFlag="shaped" width="590">
+    <richEditUI caretColor="#FF42637B" contentTips="Search" font="@ID_FONT_3" height="50" layout.height="32" layout.width="fill" left="195" name="input" padding.left="17" showT="true" textColor="#FF999999" top="61" transparent="true" width="100" expandT="true" />
+    <listBoxUI bkInfoM="{sizeT:300,40;99:1.9.9;3:2(15)3(0,0,4,0)4(@control_overlay_selected.png);98:256(0)512(0);}" height="100" layout.height=":1" layout.width="fill" left="377" name="listbox1" showT="true" top="257" transparent="true" width="100" expandT="true">
+        <child>
+            <scrollBarUI bkInfoM="@scroll_thumb_vertical_bg" drawBorder="false" drawFocus="false" enableFocus="false" mouseThrough="true" transparent="true" childType="scrollBarV" />
+            <buttonUI bkInfoM="@scroll_thumb_vertical" drawBorder="false" drawFocus="false" enableFocus="false" transparent="true" childType="scrollBarV.button" />
+        </child>
+    </listBoxUI>
+</windowUI>

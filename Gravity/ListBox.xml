@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="gb2312" ?>
+<!--炫彩界面库-列表框元素项模板文件-->
+<xc_template_listBox>
+    <layoutEleUI drawBorder="false" enableCanvas="false" heightT="39" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="false" layout.padding="16,2,2,2" layout.space="2" layout.width="auto" mouseThrough="true" showT="true" widthT="300" expandT="true">
+        <richEditUI content="{binding field=name}" drawBorder="false" drawFocus="false" enable="false" enableFocus="false" height="39" itemID="100" layout.height="auto" layout.width="fill" left="86" mouseThrough="true" scrollBarShowH="false" showT="true" textColor="#FF969696" top="16" transparent="true" width="100" expandT="true" />
+    </layoutEleUI>
+</xc_template_listBox>
