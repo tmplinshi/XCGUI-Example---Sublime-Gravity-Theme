@@ -13,8 +13,8 @@ global g_fullList := ["Alan Wake", "DARK SOULS™: Prepare To Die Edition", "Hel
 
 xc.XInitXCGUI()
 xc.XC_EnableDebugFile(false)
-xc.XC_LoadResource("Gravity\Resource\resource.res")
-hWindow := xc.XC_LoadLayout("Gravity\Layout\layout.xml", 0)
+xc.XC_LoadResource("Gravity\资源文件\resource.res")
+hWindow := xc.XC_LoadLayout("Gravity\布局文件\layout.xml", 0)
 
 CreateFonts()
 g_hListBox := InitListBox()
